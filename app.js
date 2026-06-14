@@ -2,7 +2,7 @@
 
 // ── API BASE URL ───────────────────────────────────────────
 // Remplace par ton URL Render après déploiement
-const API_BASE = window.API_BASE || 'https://eduflow-api.onrender.com';
+const API_BASE = window.API_BASE || 'https://eduflow-backend-9ytv.onrender.com';
 
 function api(path, method, data) {
   return fetch(API_BASE + path, {
